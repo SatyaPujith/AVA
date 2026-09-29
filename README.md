@@ -1,6 +1,6 @@
-# Aura: Persistent Memory Voice Agent
+# AVA (Advanced Voice Agent): Persistent Memory Voice Agent
 
-Aura is a next-generation conversational voice agent powered by Google Gemini and **Hindsight DB**. The primary purpose of this project is to demonstrate an AI agent that possesses true, persistent, long-term memory across all interactions. 
+AVA is a next-generation conversational voice agent powered by Google Gemini and **Hindsight DB**. The primary purpose of this project is to demonstrate an AI agent that possesses true, persistent, long-term memory across all interactions. 
 
 ## The Zero-Repetition Guarantee
 
@@ -8,7 +8,7 @@ Aura is a next-generation conversational voice agent powered by Google Gemini an
 
 Traditional support bots and IVR systems suffer from "context amnesia." Every time a user connects, transfers to a new department, or calls back the next day, they are forced to re-explain their problem, verify their identity, and repeat the details of their previous interactions.
 
-Aura solves this by utilizing **Hindsight DB** as an active memory fabric. Every interaction, complaint, preference, and resolution is permanently recorded as an event in the agent's timeline. When the user interacts with Aura, the agent proactively recalls their historical context and leads the conversation with what it already knows.
+AVA solves this by utilizing **Hindsight DB** as an active memory fabric. Every interaction, complaint, preference, and resolution is permanently recorded as an event in the agent's timeline. When the user interacts with AVA, the agent proactively recalls their historical context and leads the conversation with what it already knows.
 
 ### Key Capabilities:
 * **Persistent Memory Logs:** Seamlessly stores and recalls user preferences, unresolved issues, and past actions.

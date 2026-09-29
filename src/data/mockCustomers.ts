@@ -23,7 +23,7 @@ export const INITIAL_CUSTOMERS: CustomerProfile[] = [
       },
       {
         id: 'acc-sav-01',
-        name: 'Aura High-Yield Reserve',
+        name: 'AVA High-Yield Reserve',
         type: 'savings',
         accountNumber: '•••• 8120',
         balance: 42150.00,
@@ -35,7 +35,7 @@ export const INITIAL_CUSTOMERS: CustomerProfile[] = [
     cards: [
       {
         id: 'card-sapphire-01',
-        name: 'Aura Sapphire Reserve',
+        name: 'AVA Sapphire Reserve',
         type: 'credit',
         cardholder: 'ELENA VANCE',
         lastFour: '8821',
@@ -57,7 +57,7 @@ export const INITIAL_CUSTOMERS: CustomerProfile[] = [
       },
       {
         id: 'card-plat-debit-01',
-        name: 'Aura Signature Debit',
+        name: 'AVA Signature Debit',
         type: 'debit',
         cardholder: 'ELENA VANCE',
         lastFour: '1104',
@@ -123,7 +123,7 @@ export const INITIAL_CUSTOMERS: CustomerProfile[] = [
         id: 'tx-1045',
         accountId: 'acc-chk-01',
         description: 'Expedited Outgoing Wire Fee (Eligible for Customer Loyalty Waiver)',
-        merchant: 'Aura Banking Service Fee',
+        merchant: 'AVA Banking Service Fee',
         amount: 35.00,
         category: 'Fee',
         date: 'Sep 24, 2026',
@@ -147,7 +147,7 @@ export const INITIAL_CUSTOMERS: CustomerProfile[] = [
       },
       {
         id: 'loan-home-01',
-        title: 'Aura Home Improvement Line',
+        title: 'AVA Home Improvement Line',
         type: 'home_equity',
         maxAmount: 50000,
         interestRate: 6.95,
@@ -241,7 +241,7 @@ export const INITIAL_CUSTOMERS: CustomerProfile[] = [
     cards: [
       {
         id: 'card-titanium-02',
-        name: 'Aura Titanium Commercial',
+        name: 'AVA Titanium Commercial',
         type: 'credit',
         cardholder: 'MARCUS CHEN',
         lastFour: '3391',

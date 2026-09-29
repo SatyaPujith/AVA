@@ -219,14 +219,14 @@ export const VoiceCallModal: React.FC<VoiceCallModalProps> = ({
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
             <div>
               <div className="flex items-center gap-2 text-xs font-semibold text-zinc-950">
-                <span>Aura Support Line</span>
+                <span>AVA Support Line</span>
                 <span className="text-[11px] text-zinc-500 font-mono">
                   {formatTimer(callDuration)}
                 </span>
               </div>
               <p className="text-[11px] text-zinc-400 capitalize">
                 {callStatus === 'speaking'
-                  ? 'Aura is speaking'
+                  ? 'AVA is speaking'
                   : callStatus === 'listening'
                   ? 'Listening to you'
                   : 'Call active'}
@@ -262,7 +262,7 @@ export const VoiceCallModal: React.FC<VoiceCallModalProps> = ({
                 <div>
                   <div className="flex items-center gap-2">
                     <h3 className="font-semibold text-zinc-950 text-sm">
-                      Aura Voice Banker
+                      AVA Voice Banker
                     </h3>
                     <span className="text-[11px] text-zinc-500 font-mono">
                       {formatTimer(callDuration)}
@@ -326,9 +326,9 @@ export const VoiceCallModal: React.FC<VoiceCallModalProps> = ({
               />
               <p className="text-xs font-medium text-zinc-500 mt-1">
                 {callStatus === 'speaking'
-                  ? 'Aura is speaking...'
+                  ? 'AVA is speaking...'
                   : callStatus === 'thinking'
-                  ? 'Aura is processing and updating your account...'
+                  ? 'AVA is processing and updating your account...'
                   : isMuted
                   ? 'Microphone muted'
                   : 'Listening... Speak naturally'}
@@ -348,7 +348,7 @@ export const VoiceCallModal: React.FC<VoiceCallModalProps> = ({
                   }`}
                 >
                   <span className="text-[11px] text-zinc-400 mb-1 px-1">
-                    {msg.sender === 'user' ? customer.name : 'Aura'} · {msg.timestamp}
+                    {msg.sender === 'user' ? customer.name : 'AVA'} · {msg.timestamp}
                   </span>
 
                   <div

@@ -58,7 +58,7 @@ export const MemoryTimelineView: React.FC<MemoryTimelineViewProps> = ({
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-zinc-950">Customer Memory Ledger</h1>
           <p className="text-xs text-zinc-500 mt-1 max-w-2xl leading-relaxed">
-            Nothing angers a customer more than repeating their story. Aura indexes all past calls, dropped connections, and preferences into this persistent memory graph.
+            Nothing angers a customer more than repeating their story. AVA indexes all past calls, dropped connections, and preferences into this persistent memory graph.
           </p>
         </div>
         <div className="flex items-center gap-2 self-start sm:self-auto">
@@ -159,7 +159,7 @@ export const MemoryTimelineView: React.FC<MemoryTimelineViewProps> = ({
 
             {mem.agentNotes && (
               <div className="text-xs text-zinc-600 bg-zinc-50 border-l-2 border-zinc-900 pl-3 py-1 mt-2">
-                <strong className="text-zinc-900 font-medium">Aura Agent Rule:</strong> {mem.agentNotes}
+                <strong className="text-zinc-900 font-medium">AVA Agent Rule:</strong> {mem.agentNotes}
               </div>
             )}
 
@@ -174,7 +174,7 @@ export const MemoryTimelineView: React.FC<MemoryTimelineViewProps> = ({
                 className="font-medium text-zinc-900 hover:underline cursor-pointer flex items-center gap-1"
               >
                 <PhoneCall className="w-3 h-3" />
-                <span>Call Aura About This</span>
+                <span>Call AVA About This</span>
               </button>
             </div>
           </div>

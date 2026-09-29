@@ -1,5 +1,5 @@
 {
-  "name": "Aura Banking - Persistent Memory Voice Support Agent",
+  "name": "AVA (Advanced Voice Agent) - Persistent Memory Voice Support",
   "description": "Next-generation digital banking platform featuring a real-time conversational voice agent with zero story repetition and persistent customer memory.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

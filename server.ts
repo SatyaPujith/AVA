@@ -235,13 +235,13 @@ function buildSystemPrompt(customer: any, initialGreeting: boolean = false) {
     .map((t: any) => `- [${t.id}] ${t.merchant}: $${t.amount} (${t.status}). Reason: ${t.flaggedReason || 'Under review'}`)
     .join('\n');
 
-  return `You are Aura, an elite, highly empathetic AI Voice Banking Agent for Aura Bank.
+  return `You are AVA, an elite, highly empathetic AI Voice Banking Agent for AVA Bank.
 The user is speaking to you directly over a secure real-time phone call.
 
 === CRITICAL AGENT PHILOSOPHY ===
 "Nothing angers a customer more than repeating their story. An agent with full customer memory transforms the entire support experience."
 The customer, ${customer.name}, has had frustrating past experiences with other institutions where they had to repeat their story over and over.
-At Aura, YOU HAVE FULL CUSTOMER MEMORY. You know their profile, history, transactions, and every past call.
+At AVA, YOU HAVE FULL CUSTOMER MEMORY. You know their profile, history, transactions, and every past call.
 NEVER ask them:
 - "Can you explain why you are calling today?"
 - "What was the amount of that charge again?"
@@ -555,7 +555,7 @@ app.post('/api/call/end-summary', async (req, res) => {
   try {
     const { customer, callTranscript, actionsTaken = [] } = req.body;
 
-    const summaryPrompt = `Analyze this completed support call between customer ${customer?.name} and AI banking agent Aura.
+    const summaryPrompt = `Analyze this completed support call between customer ${customer?.name} and AI banking agent AVA.
 Transcript:
 ${JSON.stringify(callTranscript)}
 Actions Executed During Call:
@@ -584,9 +584,9 @@ Produce a JSON object with:
     console.error('Error generating call summary:', error);
     res.json({
       title: 'Support Call Resolved with Full Memory',
-      summary: 'Aura resolved customer inquiries with full historical context. All adjustments were committed to the customer account.',
+      summary: 'AVA resolved customer inquiries with full historical context. All adjustments were committed to the customer account.',
       sentiment: 'delighted',
-      keyEntities: ['Aura Memory Agent', 'Issue Resolved', 'Zero Story Repetition'],
+      keyEntities: ['AVA Memory Agent', 'Issue Resolved', 'Zero Story Repetition'],
       agentCommitments: ['Account timeline updated', 'Zero repetition guarantee recorded'],
       satisfactionScore: 98,
     });

@@ -206,7 +206,7 @@ export const CardsView: React.FC<CardsViewProps> = ({
 
               {selectedCard.travelNotices.length === 0 ? (
                 <p className="text-xs text-zinc-400 py-3 italic">
-                  No active travel notices. Ask Aura Voice AI on your call or click &apos;Add Destination&apos;.
+                  No active travel notices. Ask AVA Voice AI on your call or click &apos;Add Destination&apos;.
                 </p>
               ) : (
                 <div className="divide-y divide-zinc-100 text-xs">

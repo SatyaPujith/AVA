@@ -28,7 +28,7 @@ export const VoiceCallPill: React.FC<VoiceCallPillProps> = ({
             <div className="flex items-center justify-between pb-3 border-b border-zinc-100">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                <h3 className="text-xs font-semibold text-zinc-950">Aura Voice Banker</h3>
+                <h3 className="text-xs font-semibold text-zinc-950">AVA Voice Banker</h3>
                 <span className="text-[11px] text-zinc-400 font-mono">Zero Repetition</span>
               </div>
               <button
@@ -48,7 +48,7 @@ export const VoiceCallPill: React.FC<VoiceCallPillProps> = ({
                   <span>Pending Issue Loaded</span>
                 </div>
                 <p className="text-[11px] text-amber-800 leading-snug">
-                  {unresolvedItem.title}. Aura knows all details—you don&apos;t need to repeat anything.
+                  {unresolvedItem.title}. AVA knows all details—you don&apos;t need to repeat anything.
                 </p>
               </div>
             )}
@@ -89,7 +89,7 @@ export const VoiceCallPill: React.FC<VoiceCallPillProps> = ({
               className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs shadow-lg transition-transform hover:scale-102 cursor-pointer"
             >
               <PhoneCall className="w-3.5 h-3.5" />
-              <span>Call Aura Support</span>
+              <span>Call AVA Support</span>
               {unresolvedItem && (
                 <span className="w-2 h-2 rounded-full bg-amber-400" />
               )}

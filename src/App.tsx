@@ -199,7 +199,7 @@ export default function App() {
         dateStr: new Date().toISOString().split('T')[0],
         category: 'call_summary',
         title: summaryData.title || 'Voice Support Call Resolved',
-        summary: summaryData.summary || 'Aura AI resolved issues with zero story repetition.',
+        summary: summaryData.summary || 'AVA AI resolved issues with zero story repetition.',
         sentiment: (summaryData.sentiment as any) || 'delighted',
         keyEntities: summaryData.keyEntities || ['Voice Support', 'Resolved'],
         resolved: true,

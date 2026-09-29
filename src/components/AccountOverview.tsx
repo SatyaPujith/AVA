@@ -91,7 +91,7 @@ export const AccountOverview: React.FC<AccountOverviewProps> = ({
                   {unresolvedMemory.summary}
                 </p>
                 <p className="text-[11px] text-amber-700 mt-1">
-                  Aura has your full incident record loaded. If you call, you won&apos;t have to repeat your story.
+                  AVA has your full incident record loaded. If you call, you won&apos;t have to repeat your story.
                 </p>
               </div>
             </div>
@@ -245,7 +245,7 @@ export const AccountOverview: React.FC<AccountOverviewProps> = ({
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Brain className="w-4 h-4 text-blue-600" />
-                <h2 className="text-base font-semibold text-zinc-950">Aura Memory Ledger</h2>
+                <h2 className="text-base font-semibold text-zinc-950">AVA Memory Ledger</h2>
               </div>
               <span className="text-xs text-zinc-400 font-mono">
                 {customer.memoryLog.length} stored records

@@ -93,7 +93,7 @@ export const PostCallSummaryModal: React.FC<PostCallSummaryModalProps> = ({
         {/* Zero repetition guarantee */}
         {summaryData.agentCommitments && summaryData.agentCommitments.length > 0 && (
           <div className="mb-6 p-3 rounded-xl bg-blue-50/60 border border-blue-100 text-xs text-blue-950">
-            <p className="font-semibold text-blue-900 mb-1">Aura Zero-Repetition Guarantee</p>
+            <p className="font-semibold text-blue-900 mb-1">AVA Zero-Repetition Guarantee</p>
             <ul className="list-disc list-inside space-y-0.5 text-blue-900/80 text-[11px]">
               {summaryData.agentCommitments.map((c, idx) => (
                 <li key={idx}>{c}</li>

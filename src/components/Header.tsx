@@ -29,7 +29,7 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-6xl mx-auto px-4 sm:px-8 py-2 flex flex-wrap items-center justify-between text-xs text-zinc-500 border-b border-zinc-100">
         <div className="flex items-center gap-3">
           <span className="flex items-center gap-1.5 text-zinc-700 font-medium">
-            <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" /> Aura Private Banking
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" /> AVA Private Banking
           </span>
           <span aria-hidden="true" className="text-zinc-300">·</span>
           <span className="flex items-center gap-1 text-zinc-600">
@@ -71,7 +71,7 @@ export const Header: React.FC<HeaderProps> = ({
             <span className="w-7 h-7 rounded-lg bg-zinc-900 text-white flex items-center justify-center text-xs font-black tracking-normal">
               A
             </span>
-            <span>Aura</span>
+            <span>AVA</span>
           </a>
           <span className="text-xs text-zinc-400 hidden md:inline">Private Banking & Memory</span>
         </div>
